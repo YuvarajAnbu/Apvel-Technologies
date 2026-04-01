@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apvel Technologies</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="hide">
+    <header id="home">
+      <a href="/" target="_blank" rel="noopener noreferrer"
+        ><img src="./images/logo.png" alt="logo"
+      /></a>
+
+      <ul class="nav-links">
+        <li data-target="home" data-i18n-key="home">Home</li>
+        <li data-target="about" data-i18n-key="about-us">About Us</li>
+        <li data-target="services" data-i18n-key="we-offer">We Offer</li>
+        <li data-target="contact">
+          <button type="button">
+            <span data-i18n-key="contact-us">Contact Us</span>
+          </button>
+        </li>
+      </ul>
+
+      <div class="ham open-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="bg-blur close-nav"></div>
+
+      <div class="mobile-links">
+        <svg
+          class="close-nav"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="Menu / Close_MD">
+            <path
+              id="Vector"
+              d="M18 18L12 12M12 12L6 6M12 12L18 6M12 12L6 18"
+              stroke="#000000"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </g>
+        </svg>
+        <ul>
+          <li data-target="home">Home</li>
+          <li data-target="about">About Us</li>
+          <li data-target="services">We Offer</li>
+          <li data-target="contact">
+            <button type="button"><span>Contact Us</span></button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="locale" tabindex="0">
+        <div class="btn">
+          <span>EN</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            stroke="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M6 10l6 6l6 -6h-12"></path>
+          </svg>
+        </div>
+        <ul class="options"></ul>
+      </div>
+    </header>
+
+    <section class="landing">
+      <div class="content">
+        <h1 data-i18n-key="landing-title">
+          Digitalise your business process with ServiceNow
+        </h1>
+        <p data-i18n-key="landing-text">
+          Everything your business needs is available here. Supported by a
+          cloud-based platform with the best feature.
+        </p>
+        <button type="button" data-target="about">
+          <span data-i18n-key="learn-more">Learn More</span>
+        </button>
+      </div>
+
+      <div class="img-container">
+        <div class="img">
+          <img src="./images/landing-600.webp" alt="landing page image" />
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <section class="about" id="about">
+        <h2 data-i18n-key="about-title">Why Choose Apvel Technologies?</h2>
+        <p data-i18n-key="about">
+          Why pick us? Because we're here to help your ideas flourish! Our team
+          brings the cloud to life with a friendly touch, guiding you through
+          smooth transitions, keeping your data secure, and making sure you're
+          always in good hands.
+        </p>
+      </section>
+
+      <section class="desc stress">
+        <div class="img-container">
+          <div class="img">
+            <img
+              src="./images/stress-850.webp"
+              alt="women in stress"
+              srcset="
+                ./images/stress-450.webp 450w,
+                ./images/stress-850.webp 850w
+              "
+            />
+          </div>
+        </div>
+
+        <div class="content">
+          <h2 data-i18n-key="desc-title1">
+            Worry Less, Explore Limitless - Your Partner in Seamless Services
+          </h2>
+          <p data-i18n-key="desc1">
+            Embrace boundless exploration with peace of mind, guided by a
+            seamless partnership. As your dedicated ally, we provide services
+            that empower you to venture without constraints. Navigate the
+            horizons of possibility confidently, knowing we're here to ensure
+            your journey remains uninterrupted.
+          </p>
+        </div>
+      </section>
+
+      <section class="desc happy">
+        <div class="content">
+          <h2 data-i18n-key="desc-title2">
+            Uncompromising Commitment to Delivering the Best Quality
+          </h2>
+          <p data-i18n-key="desc2">
+            At our core, we are dedicated to providing cloud services that
+            redefine excellence, ensuring your digital journey is guided by
+            unparalleled quality and performance. Our relentless dedication to
+            delivering nothing but the best quality in cloud services stands as
+            a testament to our commitment to empowering your business with the
+            finest technological solutions.
+          </p>
+        </div>
+
+        <div class="img-container">
+          <div class="img">
+            <img
+              src="./images/happy-850.webp"
+              alt="man being happy"
+              srcset="
+                ./images/happy-450.webp 450w,
+                ./images/happy-850.webp 850w
+              "
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="title">
+          <h2 data-i18n-key="ser-title">Here's What We Bring to the Table</h2>
+          <p data-i18n-key="ser-span">
+            Personalized Experiences Through ServiceNow
+          </p>
+        </div>
+
+        <div class="container">
+          <div class="content">
+            <h3>
+              <span>1. </span>
+              <div data-i18n-key="ser-title1">ServiceNow Implementation</div>
+            </h3>
+            <p data-i18n-key="ser1">
+              Streamline and optimize your business operations with seamless
+              ServiceNow implementation for our cloud services. We implement
+              ITSM, ITBM, ITOM, CSM, HRSD, TSM and PA.
+            </p>
+          </div>
+          <div class="content">
+            <h3>
+              <span>2. </span>
+              <div data-i18n-key="ser-title2">
+                ServiceNow Support and maintenance
+              </div>
+            </h3>
+            <p data-i18n-key="ser2">
+              Our project managers and expert consultants will support your
+              legacy applications by taking over routine maintenance, break/fix
+              and help desk services during the transition to a new solution.
+            </p>
+          </div>
+          <div class="content">
+            <h3>
+              <span>3. </span>
+              <div data-i18n-key="ser-title3">
+                ServiceNow Custom App Development
+              </div>
+            </h3>
+            <p data-i18n-key="ser3">
+              our in-house solution architects and engineers will guide you from
+              concept to launch—building custom applications aligned to your
+              business goals
+            </p>
+          </div>
+          <div class="content">
+            <h3>
+              <span>4. </span>
+              <div data-i18n-key="ser-title4">Website Development</div>
+            </h3>
+            <p data-i18n-key="ser4">
+              We're One-Stop Solution For A Wide Range Of Web Development
+              Services. Let's build your app.
+            </p>
+          </div>
+          <div class="content">
+            <h3>
+              <span>5. </span>
+              <div data-i18n-key="ser-title5">Staffing support</div>
+            </h3>
+            <p data-i18n-key="ser5">
+              We help you identify and hire consultants across all major
+              enterprise solutions and skills. Turn to us for a single
+              consultant or to build an entire team.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer id="contact">
+      <div class="content">
+        <h2 data-i18n-key="foo-title">Get in touch with us</h2>
+        <p data-i18n-key="foo">
+          Why pick us? Because we're here to help your ideas flourish! Our team
+          brings the cloud to life with a friendly touch, guiding you through
+          smooth transitions, keeping your data secure, and making sure you're
+          always in good hands.
+        </p>
+      </div>
+      <div class="contact">
+        <div class="container">
+          <h4 data-i18n-key="directors">Managing Directors</h4>
+          <div class="social">
+            <p>Reka Djearamalu</p>
+            <a
+              href="mailto:r_reka2003@yahoo.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >r_reka2003@yahoo.com</a
+            >
+          </div>
+          <!-- <div class="social">
+            <p>Samantha T</p>
+            <a
+              href="mailto:sam@cloudsolutionllc.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >sam@cloudsolutionllc.com</a
+            >
+          </div> -->
+        </div>
+        <div class="container">
+          <h4 data-i18n-key="contact-at">Contact At</h4>
+          <div class="social">
+            <p>
+              Apvel technologies <br />
+              Cregy Les Meaux, France <br />
+            </p>
+          </div>
+          <!-- <div class="social">
+            <a
+              href="mailto:seads@cloudsolutionllc.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >contact@cloudsolutionllc.com</a
+            >
+            <div class="btns">
+              <a
+                href="http://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Facebook</a
+              >
+              <a
+                href="http://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Twitter</a
+              >
+              <a
+                href="http://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Instagram</a
+              >
+            </div>
+          </div> -->
+        </div>
+      </div>
+
+      <p class="copyright">© <span class="year"></span> Apvel technologies</p>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
